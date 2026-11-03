@@ -1,0 +1,2 @@
+export const navIcons={Inventario:'box',Ventas:'bag',Compras:'cart',Reportes:'chart',Alertas:'bell',Movimientos:'history',Configuración:'settings'};
+export function actionIcon(text){if(/agregar|nuev|crear/i.test(text))return 'plus';if(/guardar/i.test(text))return 'save';if(/exportar|descargar/i.test(text))return 'download';if(/cancelar|rechazar|anular/i.test(text))return 'close';if(/limpiar|filtrar/i.test(text))return 'filter';if(/ver/i.test(text))return 'eye';if(/recibir/i.test(text))return 'truck';return 'check'}
